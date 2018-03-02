@@ -11,10 +11,10 @@ public class Recruitment extends NewTest {
 	
   @Test(priority=2)
   public void f2() throws InterruptedException {
-	  driver.findElement(By.xpath("//*[@id='menu_recruitment_viewRecruitmentModule']")).click();
-	 // WebElement rec=driver.findElement(By.xpath("//*[@id='candidateSearch_jobTitle']"));
-	  //Select sel=new Select(rec);
-	  //sel.selectByValue("9");
+	  driver.findElement(By.xpath("//a[@id='menu_recruitment_viewRecruitmentModule']")).click();
+	 WebElement rec=driver.findElement(By.xpath("//*[@id='candidateSearch_jobTitle']"));
+	  Select sel=new Select(rec);
+	  sel.selectByValue("9");
 	  WebElement rec1=driver.findElement(By.xpath("//*[@id='candidateSearch_status']"));
 	  Select sel1=new Select(rec1);
 	  sel1.selectByValue("SHORTLISTED");

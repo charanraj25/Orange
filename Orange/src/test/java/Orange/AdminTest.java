@@ -12,7 +12,7 @@ public class AdminTest extends NewTest{
 	  driver.findElement(By.xpath("//*[@id='menu_admin_viewAdminModule']/b")).click();
 	  driver.findElement(By.xpath("//*[@id='btnAdd']")).click();
 	  driver.findElement(By.xpath("//*[@id='systemUser_employeeName_empName']")).sendKeys("John Smith");
-	  driver.findElement(By.xpath("//*[@id='systemUser_userName']")).sendKeys("rajkumar");
+	  driver.findElement(By.xpath("//*[@id='systemUser_userName']")).sendKeys("rajkumar1");
 	  
 	  WebElement raj=driver.findElement(By.xpath("//*[@id='systemUser_userType']"));
 	  Select sel=new Select(raj);
