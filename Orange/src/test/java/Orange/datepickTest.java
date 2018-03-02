@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class datepick extends NewTest{
+public class datepickTest extends LoginTest{
   @Test(priority=3)
   public void date_pick() throws InterruptedException
   {

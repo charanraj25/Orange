@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver.SystemProperty;
 import org.testng.annotations.AfterTest;
 
-public class NewTest {
+public class LoginTest {
 	
 	
 	 WebDriver driver;

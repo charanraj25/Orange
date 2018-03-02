@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Autoit {
+public class AutoitTest {
 	WebDriver driver;
   @Test
   public void f2() throws IOException, InterruptedException {

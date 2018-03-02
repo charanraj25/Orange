@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class Recruitment extends NewTest {
+public class RecruitmentTest extends LoginTest {
 	
   @Test(priority=2)
   public void f2() throws InterruptedException {

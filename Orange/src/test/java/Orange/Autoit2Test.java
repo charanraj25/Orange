@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class Autoit2 {
+public class Autoit2Test {
 	WebDriver driver;
   @Test
   public void f() throws IOException {
